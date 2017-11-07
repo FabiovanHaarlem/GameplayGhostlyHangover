@@ -33,12 +33,12 @@ public class GameHandler : MonoBehaviour
             m_ChecklifeEnergyTimer = 0;
         }
 	}
-
+    
 
     private void PlayerLifeEnergyChanged()
     {
         if (m_LifeEnegryChangeEvent != null)
-            m_LifeEnegryChangeEvent(m_Player.lifeEnergy);
+            m_LifeEnegryChangeEvent(m_Player.LifeEnergy);
            
     }
 }

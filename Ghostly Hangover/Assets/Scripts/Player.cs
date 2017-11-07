@@ -5,23 +5,19 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     private NPC m_NPCScript;
-
     private GameObject m_Camera;
-
     private Renderer m_Renderer;
 
     private float m_MoveSpeed;
-
+    [SerializeField]
     private float m_LifeEnergy;
-
-    public float lifeEnergy
+    public float LifeEnergy
     {
         get
         {
             return m_LifeEnergy;
         }
     }
-
     private float m_CheckLifeEnergyTimer;
 
     void Start ()
