@@ -2633,13 +2633,13 @@ Transform:
   - {fileID: 351197044}
   - {fileID: 1441446005}
   - {fileID: 908642449}
+  - {fileID: 1676853620}
   - {fileID: 1308981145}
   - {fileID: 1967335253}
   - {fileID: 1517864067}
   - {fileID: 2095175078}
   - {fileID: 1344348877}
   - {fileID: 1734096745}
-  - {fileID: 1676853620}
   - {fileID: 2117917886}
   - {fileID: 1632564491}
   - {fileID: 511556428}
@@ -3520,7 +3520,7 @@ Transform:
   - {fileID: 483938444}
   - {fileID: 448381892}
   m_Father: {fileID: 1300453571}
-  m_RootOrder: 10
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &1676853621
 MeshRenderer:
@@ -4018,6 +4018,11 @@ Prefab:
     - target: {fileID: 4825673619352800, guid: dd137998b772a2f4ea4ab9f5f242ff7f, type: 2}
       propertyPath: m_RootOrder
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 54001178851329684, guid: dd137998b772a2f4ea4ab9f5f242ff7f,
+        type: 2}
+      propertyPath: m_Constraints
+      value: 126
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: dd137998b772a2f4ea4ab9f5f242ff7f, type: 2}
